@@ -14,7 +14,7 @@ def crew
 end
 
 def greet_crew(crew)
-  crew.each do |mem|
+  crew.map do |mem|
     "Hello #{mem}."
   binding.pry
 end
